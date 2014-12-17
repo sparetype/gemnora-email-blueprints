@@ -1,0 +1,183 @@
+<table width="700" cellspacing="0" cellpadding="5" border="0" align="center" style="border: 1px solid rgb(204, 204, 204);">    
+	<tbody>
+	
+	<tr>
+	<td align="center">
+	<img src="http://www.gemnora.com/images/upload/email_template/email_template_invoice_logo.png" style="max-width: 600px;-ms-interpolation-mode: bicubic;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" id="headerImage">
+	</td>
+	</tr>
+	
+		<tr>            
+			<td>            
+				<table width="100%" cellspacing="0" cellpadding="5" border="0" bgcolor="#eeeeee">                
+					<tbody>                    
+						<tr>                        
+							<td width="50%" valign="top" align="left"><span style="font-family: Helvetica, sans-serif; font-size: 14pt;">                         <strong>{store_name}</strong>                        </span>                         <br />
+								                        <span style="font-family: Helvetica, sans-serif; font-size: 10pt;">                         {store_shipping_address}<br />
+									                        {store_shipping_city}, {store_shipping_state} {store_shipping_postal_code}<br />
+									                        {store_shipping_country}                         </span></td>                        
+							<td width="50%" valign="top" align="right"><span style="font-family: Helvetica, sans-serif; font-size: 14pt;">                         <strong>invoice {order_prefix}{invoice_id}</strong>                        </span>                         <br />
+								                        <span style="font-family: Helvetica, sans-serif; font-size: 10pt;">                         <span style="text-transform: capitalize;">date purchased - {invoice_date}<br />
+										                        due date - {due_date}<br />
+										                        order status: {order_status}<br />
+										                        </span>                        </span></td>                    
+						</tr>                
+					</tbody>            
+				</table>            </td>        
+		</tr>        
+		<tr>            
+			<td align="right"><hr noshade="noshade" width="100%" size="1" />
+				            </td>        
+		</tr>        
+		<tr>            
+			<td>            
+				<table width="100%" cellspacing="0" cellpadding="0" border="0">                
+					<tbody>                    
+						<tr>                        
+							<td width="49%" valign="top" align="center">                        
+								<table width="100%" cellspacing="0" cellpadding="5" border="0">                            
+									<tbody>                                
+										<tr>                                    
+											<td align="left" valign="top"><span style="font-family: Helvetica, sans-serif; font-size: 10pt;">                                     <strong>Account Information</strong><br />
+													                                    {customers_name}<br />
+													                                    {customers_company}<br />
+													                                    {customers_address_1}<br />
+													                                    {customers_address_2}<br />
+													                                    {customers_city} {customers_state} {customers_postal_code}<br />
+													                                    {customers_country}<br />
+													                                    {customers_telephone}&nbsp;<br />
+													                                    {customers_primary_email}&nbsp;                                     </span></td>                                
+										</tr>                            
+									</tbody>                        
+								</table>                        </td>                        
+							<td width="49%" valign="top" align="center">                        
+								<table width="100%" cellspacing="0" cellpadding="5" border="0">                            
+									<tbody>                                
+										<tr>                                    
+											<td align="left" valign="top"><span style="font-family: Helvetica, sans-serif; font-size: 10pt;">                                      <strong>Shipping Information</strong>    <br />
+													                                    {shipping_name}<br />
+													                                    {shipping_company}<br />
+													                                    {shipping_address_1}<br />
+													                                    {shipping_address_2}<br />
+													                                    {shipping_city} {shipping_state} {shipping_postal_code}<br />
+													                                    {shipping_country}<br />
+													                                    <strong>{shipping_method}</strong><br />
+													                                    &nbsp;<br />
+													                                    &nbsp;                                      </span></td>                                
+										</tr>                            
+									</tbody>                        
+								</table>                        </td>                    
+						</tr>                
+					</tbody>            
+				</table>            </td>        
+		</tr>        
+		<tr>            
+			<td align="right"><hr noshade="noshade" width="100%" size="1" />
+				            </td>        
+		</tr>        
+		<tr>            
+			<td>            
+				<table width="100%" cellspacing="0" cellpadding="5" border="0">                
+					<tbody>                    
+						<tr bgcolor="#eeeeee">                        
+							<td width="11%"><span style="font-family: Helvetica, sans-serif; font-size: 10pt;"><strong>SKU</strong></span></td>                        
+							<td colspan="2"><span style="font-family: Helvetica, sans-serif; font-size: 10pt;"><strong>product name</strong></span></td>                        
+							<td width="19%"><span style="font-family: Helvetica, sans-serif; font-size: 10pt;"><strong>unit price</strong></span></td>                        
+							<td width="13%"><span style="font-family: Helvetica, sans-serif; font-size: 10pt;"><strong>quantity</strong></span></td>                        
+							<td><span style="font-family: Helvetica, sans-serif; font-size: 10pt;"><strong>total</strong></span></td>                    
+						</tr>                    
+						<tr>
+							<td colspan="6">{products_html}
+                    </td>
+						</tr> 
+						<tr>                        
+							<td valign="top" colspan="6">&nbsp;</td>                    
+						</tr>                    
+						<tr>                        
+							<td>&nbsp;</td>                        
+							<td width="20%" align="right">&nbsp;</td>                        
+							<td width="22%">&nbsp;</td>                        
+							<td align="right" colspan="2"><span style="font-family: Helvetica, sans-serif; font-size: 10pt;">subtotal amount          :</span></td>                        
+							<td width="15%"><span style="font-family: Helvetica, sans-serif; font-size: 10pt;">{subtotal_amount}</span></td>                    
+						</tr>                    
+						<tr>                        
+							<td>&nbsp;</td>                        
+							<td align="right">&nbsp;</td>                        
+							<td>&nbsp;</td>                        
+							<td align="right" colspan="2"><span style="font-family: Helvetica, sans-serif; font-size: 10pt;">tax amount          :</span></td>                        
+							<td><span style="font-family: Helvetica, sans-serif; font-size: 10pt;">{tax_amount}</span></td>                    
+						</tr>                    
+						<tr>                        
+							<td>&nbsp;</td>                        
+							<td align="right">&nbsp;</td>                        
+							<td>&nbsp;</td>                        
+							<td align="right" colspan="2"><span style="font-family: Helvetica, sans-serif; font-size: 10pt;">shipping amount          :</span></td>                        
+							<td><span style="font-family: Helvetica, sans-serif; font-size: 10pt;">{shipping_amount}</span></td>                    
+						</tr>                    
+						<tr>                        
+							<td>&nbsp;</td>                        
+							<td align="right">&nbsp;</td>                        
+							<td>&nbsp;</td>                        
+							<td align="right" colspan="2"><span style="font-family: Helvetica, sans-serif; font-size: 10pt;">discount amount:</span></td>                        
+							<td><span style="font-family: Helvetica, sans-serif; font-size: 10pt;">{discount_amount}</span></td>                    
+						</tr>                    
+						<tr>                        
+							<td>&nbsp;</td>                        
+							<td align="right">&nbsp;</td>                        
+							<td>&nbsp;</td>                        
+							<td align="right" colspan="2"><span style="font-family: Helvetica, sans-serif; font-size: 10pt;"><strong> total amount:</strong></span></td>                        
+							<td><span style="font-family: Helvetica, sans-serif; font-size: 10pt;"><strong>{total_amount}</strong></span></td>                    
+						</tr>                
+					</tbody>            
+				</table>            </td>        
+		</tr>        
+		<tr>            
+			<td align="right"><hr noshade="noshade" width="100%" size="1" />
+				            </td>        
+		</tr>        
+		<tr>            
+			<td>            
+				<table width="100%" cellspacing="0" cellpadding="5" border="0">                
+					<tbody>                    
+						<tr bgcolor="#eeeeee">                        
+							<td width="17%"><span style="font-family: Helvetica, sans-serif; font-size: 10pt;"><strong>payment date</strong></span></td>                        
+							<td width="30%"><span style="font-family: Helvetica, sans-serif; font-size: 10pt;"><strong>payment method</strong></span></td>                        
+							<td width="36%"><span style="font-family: Helvetica, sans-serif; font-size: 10pt;"><strong>transaction id</strong></span></td>                        
+							<td width="17%"><span style="font-family: Helvetica, sans-serif; font-size: 10pt;"><strong>payments</strong></span></td>                    
+						</tr>  
+						<tr>
+							<td colspan="4">                   {payments_html}
+      </td>
+						</tr>           
+					</tbody>            
+				</table>            </td>        
+		</tr>        
+		<tr>            
+			<td align="right"><hr noshade="noshade" width="100%" size="1" />
+				            </td>        
+		</tr>        
+		<tr>            
+			<td>            
+				<table width="100%" cellspacing="0" cellpadding="5" border="0">                
+					<tbody>                    
+						<tr>                        
+							<td width="17%" style="text-align: right;"><span style="font-family: Helvetica, sans-serif; font-size: 10pt;"><strong>balance due:</strong></span>                        </td>                        
+							<td width="30%"><span style="font-family: Helvetica, sans-serif; font-size: 10pt;"><strong>{balance_due}</strong></span></td>                        
+							<td width="36%" align="right"><span style="font-family: Helvetica, sans-serif; font-size: 10pt;"><strong>total payments:</strong></span></td>                        
+							<td width="17%"><span style="font-family: Helvetica, sans-serif; font-size: 10pt;"><strong>{total_payments}</strong></span></td>                    
+						</tr>                    
+						<tr>                        
+							<td valign="top" align="center" colspan="4"><strong><span style="font-family: Helvetica, sans-serif; font-size: 10pt;">{payment_link_html}</span></strong></td>                    
+						</tr>                
+					</tbody>            
+				</table>            </td>        
+		</tr>
+		
+		<tr>
+		<td align="center">
+		<img src="http://www.gemnora.com/images/upload/email_template/email_template_divider.png" style="max-width: 600px;-ms-interpolation-mode: bicubic;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" id="dividerImage">
+		</td>
+		</tr>
+		
+	</tbody>
+</table>
