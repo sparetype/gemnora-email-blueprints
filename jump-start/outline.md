@@ -18,74 +18,74 @@ ttt
 Day 6
 ttt
 
-Day 2
+Day 7
 ttt
 
-Day 2
+Day 8
 ttt
 
-Day 2
+Day 9
 ttt
 
-Day 2
+Day 10
 ttt
 
-Day 2
+Day 11
 ttt
 
-Day 2
+Day 12
 ttt
 
-Day 2
+Day 13
 ttt
 
-Day 2
+Day 14
+Review your goal
+
+Day 15
 ttt
 
-Day 2
+Day 16
 ttt
 
-Day 2
+Day 17
 ttt
 
-Day 2
+Day 18
 ttt
 
-Day 2
+Day 19
 ttt
 
-Day 2
+Day 20
 ttt
 
-Day 2
+Day 21
 ttt
 
-Day 2
+Day 22
 ttt
 
-Day 2
+Day 23
 ttt
 
-Day 2
+Day 24
 ttt
 
-Day 2
+Day 25
 ttt
 
-Day 2
+Day 26
 ttt
 
-Day 2
+Day 27
 ttt
 
-Day 2
+Day 28
 ttt
 
-Day 2
+Day 29
 ttt
 
-Day 2
-ttt
-
-Day 2
+Day 30
 ttt
