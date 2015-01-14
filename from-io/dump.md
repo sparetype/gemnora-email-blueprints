@@ -216,6 +216,7 @@ It's not who you are that holds you back, it's who you think you're not.
 
 
 
+
 Your launch party is ever closer! It's going to be so much fun! Keep in mind your three main objectives for your launch: book parties, sell products, and share your excitement over your new IO business so that others might consider joining you in the business.
 
 Share your enthusiasm while inviting friends and family until the day of your party! When someone says she can't attend, invite her to be one of your first hostesses. Introduce her to your amazing products by sharing a look book, a catalog or directing her to your website. Follow up to get her opinion and answer questions. This gives you a chance to get a pre-order. Getting orders before the party is a great way to boost your sales.

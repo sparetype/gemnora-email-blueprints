@@ -7,40 +7,40 @@ Day 2
 Get in touch with your sponsor, connect on social media
 
 Day 3
-Your motivation, your why, set a goal
+Your motivation, your why, set goals
 
 Day 4
-Your first order - for yourself or somebody else
+Making a list, checking it twice.
 
 Day 5
-ttt
+Your first order - for yourself or somebody else
 
 Day 6
-ttt
+Welcome to your back office, dashboard
 
 Day 7
-ttt
+Celebrate your first week, share excitement
 
 Day 8
-ttt
+Your support team, sponsor, "let me find out"
 
 Day 9
-ttt
+Parties
 
 Day 10
-ttt
+Contact time
 
 Day 11
-ttt
+Remember your links
 
 Day 12
-ttt
+Schedule your Launch Party
 
 Day 13
-ttt
+Payquicker, commissions
 
 Day 14
-Review your goal
+Review your goal, celebrate victories
 
 Day 15
 ttt
