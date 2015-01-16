@@ -43,10 +43,10 @@ Day 14
 Review your goal, celebrate victories
 
 Day 15
-ttt
+Building a team
 
 Day 16
-ttt
+Contact time
 
 Day 17
 ttt
